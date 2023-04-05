@@ -1,0 +1,304 @@
+*{
+	
+	margin:auto;
+	
+}
+header{
+background-color:#254047;
+text-align:center;
+height: 100px;
+padding:25px;
+border-radius:0px;
+color:white;
+width: calc(100% - 0px);
+float:right;
+
+
+}
+
+footer{
+background-color:rgba(0, 0, 0, 0.3);	
+background-color:#254047;
+height:100px;	
+text-align:center;
+padding:15px;
+width: calc(100% - 0px);
+float:right;
+
+color:white;
+font-size:20px;
+
+
+	
+}
+
+#input{
+	
+	width:550px;
+
+	
+	
+}
+#titulo_pag{
+	
+	background-color:;
+	width:1100px;
+	height:50px;
+	border-radius:px;
+	text-align:center;
+	padding:0px;
+	color:white;
+	background-color:rgba(0, 0, 0, 0.3);
+	font-size:30px;
+	float:right;
+	
+	
+}
+#input_enviar{
+	
+float:right;
+}
+button{
+	float:right;
+	
+	height:40px;
+	margin:50px;
+}
+#caixa_login{
+	
+	padding:100px;
+	background-color:#254047;
+	float:left;
+	height:657px;
+	width: calc(40% - 0px);
+
+}
+#menu{
+	float:right;
+	
+	width:520px;
+
+}
+#menu ul{
+	background-color:;
+	width:340px;
+}
+body{
+ background-image: url('img/fundo1.png');
+ background-attachment: fixed;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-color:;
+ 
+}
+#sair{
+	
+	float:right;
+	text-decoration:none;
+	color:white;
+	background-color:SkyBlue;
+	border-radius:10px;
+	width:100px;
+	height:30px;
+	
+	
+}
+
+#cadastre_se a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
+
+#fundo_index{
+	
+	padding:100px;
+	background-color:white;
+	float:right;
+	height:600px;
+	width: calc(60% - 100px);
+	
+}
+#menu_local{
+	background-color:#254047;
+	width:40%;
+	height:800px;
+	margin:18px auto 0px;
+	border-radius:3px;
+	background-color:rgba(0, 0, 0, 0.);
+	
+}
+#caixa_menu{
+	background-color:#254047;
+	height:600px;
+	float:left;
+	
+	border-radius:0px;
+	width: calc(100% - 1150px);
+
+		
+}
+
+
+#caixa_menu{
+    text-align: left;
+}
+#caixa_menu ul {
+	list-style: none;
+	padding: 5px;
+	margin:5px;
+	
+}
+#caixa_menu li {
+   margin: 20px 29px;	
+   
+}
+
+#caixa_menu a {
+    text-decoration: none;
+	color: white;
+	
+}
+
+
+#caixa_menu a.active {
+    color: blue;
+}
+
+#caixa_menu a:hover {
+    color: SteelBlue;
+    transition: ease 0.1s;
+	background-color:white;
+	padding:10px 10px;
+	border-radius:5px;
+	
+}
+
+
+#fundo_admin{
+	
+	padding:75px;
+	background-color:white;
+	float:right;
+	
+	width: calc(60% - 50px);
+	
+}
+#caixa_form{
+	background-color:;
+	width:1300px;
+	margin:20px;
+	
+}
+
+thead{
+	background-color:grey;
+	color:white;
+}
+#tabela{
+	width:1078px;
+	height:500px;
+	
+		
+	
+	
+}
+#tabela td{
+	
+	padding:2px;
+	
+}
+
+
+
+#tabela th{
+	
+	padding:5px;
+	
+	
+}
+
+#caixa_tabela{
+background-color:;
+width:810px;
+}
+
+#caixa_tabela a{
+text-decoration:none;
+color:#151515;
+}
+
+#tabela_exibe{
+background-color:white;
+float:right;
+width:1079px;
+text-align:;
+}
+
+#tabela_exibe td{
+	color:#575962;
+	padding:1px;
+	
+}
+
+#tabela_exibe th{
+	width:280px;
+	padding:5px;
+	color:#575962;
+	
+	
+}
+
+
+#menu_navegacao{
+
+	background-color:;	
+	float:right;
+	margin-right:790px;
+}
+
+.inputFile {
+    width: 185px;
+    height:40px;
+    position: relative;
+    overflow: hidden;
+    background: red;
+}
+.inputFile span {
+    display: block;
+    position: absolute;
+}
+.inputFile input {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    font-size: 100px; /* Aumenta tamanho do campo */
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#botao_add{
+	float:right;
+	width:280px;
+	height:40px;
+	padding:4px;
+	border-radius:30px;
+	font-size:18px;
+	
+}
+
+body{background:#254047;}
+#wrapper{padding:90px 15px;}
+.navbar-expand-lg .navbar-nav.side-nav{flex-direction: column;}
+.card{margin-bottom: 15px; border-radius:0; box-shadow: 0 3px 5px rgba(0,0,0,.1); }
+.header-top{box-shadow: 0 3px 5px rgba(0,0,0,.1)}
+.leftmenutrigger{display: none}
+@media(min-width:992px) {
+.leftmenutrigger{display: block;display: block;margin: 7px 20px 4px 0;cursor: pointer;}
+#wrapper{padding: 90px 15px 15px 15px; }
+.navbar-nav.side-nav.open {left:0;}
+.navbar-nav.side-nav{background: #254047;box-shadow: 2px 1px 2px rgba(0,0,0,.1);position:fixed;top:86px;flex-direction: column!important;left:-220px;width:180px;overflow-y:auto;bottom:0;overflow-x:hidden;padding-bottom:300px}
+}
+.animate{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+
+	
